@@ -1,28 +1,18 @@
-== README
+We will use [semantic versioning](http://semver.org/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Branching works like this:
 
-Things you may want to cover:
+1) pull down repo
+2) checkout develop
+3) create your branch using this format and release#(x-x-x-decription-of-feature): Ex: `0.2.0-login-page`
+4) develop your branch
+5) checkout develop
+6) merge your branch: `merge [branchname]`
+7) fix conflicts
+8) pull develop from server
+9) more merges
+10) commit branch
+11) ???
+12) profit
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Nick will merge into master when we deem a release acceptable
